@@ -20,7 +20,7 @@ const generateCard = async () => {
         <figure>
             <img src="Images/${product.image}" alt="${product.product_name}">
         </figure>
-        <div class="card__produtos_detalhes">
+        <div class="card__produto_detalhes">
             <h4>${product.product_name}</h4>
             <h5>${product.product_model}</h5>
         </div>
